@@ -12,7 +12,7 @@ import rosegraphics as rg
 window = rg.TurtleWindow()
 window.delay(20)
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
