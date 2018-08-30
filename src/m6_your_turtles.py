@@ -31,9 +31,17 @@ window.delay(20)
 ###############################################################################
 turtle_x = rg.SimpleTurtle()
 turtle_x.pen = rg.Pen("red", 2)
-turtle_x.go_to(rg.Point(-300, 300))
-
+for i in range(10):
+    for j in range(5):
+        turtle_x.left(72)
+        turtle_x.forward(50)
+    turtle_x.forward(80)
 turtle_y = rg.SimpleTurtle()
 turtle_y.pen = rg.Pen("blue", 2)
+for i in range(10):
+    for j in range(5):
+        turtle_y.right(72)
+        turtle_y.forward(50)
+    turtle_y.forward(80)
 
 
