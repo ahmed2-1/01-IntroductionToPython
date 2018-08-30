@@ -48,7 +48,7 @@ for i in range(12):
         turtle_y.right(72)
         turtle_y.forward(50)
     turtle_y.forward(80)
-
+window.close_on_mouse_click()
 
 
 
